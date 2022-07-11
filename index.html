@@ -5,17 +5,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Изучение HTML5</title>
+<link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-  <img src="https://wayup-other.s3.eu-west-2.amazonaws.com/other/1650998594_wpdmn_logo.jpeg" alt="WayUp">
+  <header>
+  <img class="logo" src="https://wayup-other.s3.eu-west-2.amazonaws.com/other/1650998594_wpdmn_logo.jpeg" alt="WayUp">
   <h1>Вступление H1</h1>
-  <p>Это текст моего первого домашнего задания.</p>
-  <p>Не вериться, что мне уже удается писать свой первый код на HTML.</p>
+  <p class="bluebg">Это текст моего первого домашнего задания.</p>
+  <p>Не вериться, что мне уже удается писать свой <span style="color: red;">первый код на HTML.</span></p>
+</header>
+<section>
   <h2>Что дальше? H2</h2>
-  <p>Дальше, я буду получать все больше и больше опыта в разработке сайтов, чтобы достичь новых вершин! <a href="https://google.com">Прочитать больше в Google</a></p>
-  <h2>Что я буду уметь? Н2</h2>
-  <p>Я смогу создавать вот такие замечательные формы:</p>
+  <p>Дальше, я буду получать все больше и больше опыта в разработке сайтов, чтобы достичь новых вершин! <a href="https://google.com" target="_blank">Прочитать больше в Google</a></p>
+</section>
+<section>
+  <h2 id="what_will_i_be_able_to_do">Что я буду уметь? Н2</h2>
   <form action="#">
+  <p style="text-align: center;">Я смогу создавать вот такие замечательные формы:</p>
     <input type="text" name="name" placeholder="Имя" required>
     <input type="email" name="email" placeholder="E-mail" required>
     <input type="tel" name="tel" placeholder="Телефон" required>
@@ -27,7 +33,10 @@
     <li>С несколькими пунктами</li>
     <li>И даже с тремя отдельными пунктами</li>
   </ul>
+</section>
+<footer>
   <h2>Отличное начало! Н2</h2>
-  <a href="">Перейти на страницу первого занятия курса</a>
+  <a href="#" target="_blank">Перейти на страницу первого занятия курса</a>
+</footer>
 </body>
 </html>

@@ -1,0 +1,30 @@
+h1{
+    color: red;
+}
+.bluebg{
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: blue;
+    margin-bottom: 100px;
+}
+
+h2{
+    color: white;
+    background-color: green;
+}
+
+.logo{
+    width: 200px;
+}
+
+form{
+    width: 600px;
+}
+li{
+    border: 1px solid black;
+}
+
+#what_will_i_be_able_to_do{
+    padding: 30px;
+}
